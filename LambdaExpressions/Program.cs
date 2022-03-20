@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            int[] array = new int[] { 1, 2, 3, 5, 6, 11, 12, 13, 14, 22, 23, 33, 44, 55 };
+            int[] array = new int[] { 1, 2, 3, 5, 6, 11, 12, 13, 14, 22, 23, 33, 44, 55 ,77};
 
             int[] evenArray = GetFiltered(array, (number) => number % 2 == 0);
 
